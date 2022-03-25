@@ -40,4 +40,11 @@ public class HourContract {
     public void setHours(Integer hours) {
         this.hours = hours;
     }
+
+    public  Double totalValue(){
+        return valuePerHour * hours;
+    }
+
+
+
 }
